@@ -10,6 +10,11 @@ class DrawingApp:
         # Add a button to change color
         self.color_button = tk.Button(root, text="Change Color", command=self.change_color)
         self.color_button.pack()
+        # New Button
+        self.color_button = tk.Button(root, text="Clear", command=self.change_color)
+        self.color_button.pack()
+
+
         # I am adding a comment
         self.color = "black"
 
