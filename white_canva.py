@@ -5,6 +5,7 @@ class DrawingApp:
         self.root = root
         self.canvas = tk.Canvas(root, width=400, height=400, bg="white")
         self.canvas.pack()
+        print('This is the testing')
         self.canvas.bind("<B1-Motion>", self.draw)
 
     def draw(self, event):
